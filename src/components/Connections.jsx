@@ -25,7 +25,11 @@ const Connections = () => {
     return <h1>hgh</h1>;
   }
   if (connections.length === 0) {
-    return <h1>Make some connections</h1>;
+    return (
+      <h1 className="text-bold justify-center flex my-10">
+        Make some connections
+      </h1>
+    );
   }
   return (
     <div className="flex flex-col justify-center my-10 text">

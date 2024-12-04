@@ -43,7 +43,7 @@ const Requests = () => {
   }
   return (
     <div className="flex flex-col justify-center my-10 text">
-      <h1 className="text-bold text-3xl flex justify-center">requests</h1>
+      <h1 className="text-bold text-3xl flex justify-center">Requests</h1>
 
       {requests.map((request) => {
         const {

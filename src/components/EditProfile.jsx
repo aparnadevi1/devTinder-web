@@ -43,8 +43,8 @@ const EditProfile = ({ user }) => {
     <div className="flex justify-center my-5">
       <div className="flex justify-center mx-10">
         <div className="card bg-base-300 text-primary-content w-96">
-          <div className="card-body">
-            <h2 className="card-title text-black">Edit Profile</h2>
+          <div className="card-body text-black">
+            <h2 className="card-title ">Edit Profile</h2>
             <div>
               <label className="form-control w-full max-w-xs">
                 <div className="label">
